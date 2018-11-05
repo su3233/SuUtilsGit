@@ -8,6 +8,9 @@ import android.view.View;
 
 import demo.utils.com.myapplication.service.MyService;
 
+/**
+ * 测试clone代码后，提交了
+ */
 public class TestActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Context mContext;
