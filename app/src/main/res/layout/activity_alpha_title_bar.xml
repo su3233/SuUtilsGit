@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <demo.utils.com.myapplication.utils.MyScrollView
+        android:id="@+id/msv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2000dp"/>
+
+            <TextView
+                android:id="@+id/tv_on_remove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#0000ff"
+                android:text="停留"/>
+        </RelativeLayout>
+    </demo.utils.com.myapplication.utils.MyScrollView>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0000ff00"/>
+
+    <!--渐变的标题栏-->
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tv_title"/>
+
+    <!--固定-->
+    <TextView
+        android:id="@+id/tv_no_remove2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_centerInParent="true"
+        android:background="#0000ff"
+        android:text="停留"
+        android:visibility="gone"/>
+
+</RelativeLayout>

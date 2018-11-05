@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="demo.utils.com.myapplication.activity.DemoActivity">
+
+    <demo.utils.com.myapplication.utils.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_alpha_title"
+                style="@style/tv_style_bg"
+                android:text="测试动态透明标题栏"/>
+
+            <TextView
+                android:id="@+id/tv_alpha_splash"
+                style="@style/tv_style_bg"
+                android:text="测试透明度splash"/>
+
+            <TextView
+                android:id="@+id/tv_database_people"
+                style="@style/tv_style_bg"
+                android:text="数据库增删改查3.19"/>
+
+            <TextView
+                android:id="@+id/tv_roll_gift"
+                style="@style/tv_style_bg"
+                android:text="点击卡片抽奖3.19"/>
+
+            <TextView
+                android:id="@+id/tv_baidumap"
+                style="@style/tv_style_bg"
+                android:text="百度地图3.20"/>
+
+            <TextView
+                android:id="@+id/tv_surfaceview"
+                style="@style/tv_style_bg"
+                android:text="Surfaceview手绘3.20"/>
+
+            <TextView
+                android:id="@+id/tv_image_loader"
+                style="@style/tv_style_bg"
+                android:text="图片加载器框架3.21"/>
+
+            <TextView
+                android:id="@+id/tv_my_db"
+                style="@style/tv_style_bg"
+                android:text="我的db操作3.21"/>
+
+            <TextView
+                android:id="@+id/tv_xutils"
+                style="@style/tv_style_bg"
+                android:text="xUtils使用3.23"/>
+
+        </LinearLayout>
+    </demo.utils.com.myapplication.utils.MyScrollView>
+</LinearLayout>

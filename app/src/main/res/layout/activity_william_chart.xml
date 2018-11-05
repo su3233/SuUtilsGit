@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.utils.com.myapplication.activity.WilliamChartActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.db.chart.view.StackBarChartView
+            xmlns:chart="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/round_barchart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp"
+            chart:chart_axisBorderSpacing="0dp"
+            chart:chart_axisColor="@color/aquamarine"
+            chart:chart_shadowColor="#80000000"
+            chart:chart_shadowDy="1dp"
+            chart:chart_shadowRadius="1dp">
+        </com.db.chart.view.StackBarChartView>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

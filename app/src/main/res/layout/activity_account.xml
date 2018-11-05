@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="demo.utils.com.myapplication.activity.DemoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <demo.utils.com.myapplication.ui.MyGridView
+                android:id="@+id/gv_promote_all"
+                android:layout_width="match_parent"
+                android:horizontalSpacing="4dp"
+                android:verticalSpacing="4dp"
+                android:numColumns="4"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

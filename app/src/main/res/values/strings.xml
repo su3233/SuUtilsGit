@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">导知</string>
+    <string name="title_activity_cost">CostActivity</string>
+
+
+    <string name="category_home">框架</string>
+    <string name="category_channel">组件</string>
+    <string name="category_search">demo</string>
+    <string name="category_account">学习</string>
+    <string name="category_more">更多</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string-array name="jifeng_array_info">
+        <item name="huawei_mobile">华为荣耀5C</item>
+        <item name="xiaomi_shouhuan">小米运动手环</item>
+        <item name="qq_sport">QQ运动5积分</item>
+        <item name="gopro_camera">gopro相机</item>
+        <item name="center_info">我要抽奖</item> <!-- don't modified the text length, draw text need four text length -->
+        <item name="misfit_flash">misfit手环</item>
+        <item name="qq_sport">QQ运动8积分</item>
+        <item name="qq_gongzai">QQ公仔</item>
+        <item name="thank_take_part_in">谢谢参与</item> <!-- don't modified the text length, draw text need four text length -->
+    </string-array>
+
+    <string name="choujiang">抽奖</string>
+    <string name="choujiang_desc">"抽奖需消耗10积分，确定抽奖吗?"</string>
+    <string name="result_title">恭喜您</string>
+    <string name="result_message">恭喜您获得%s~</string>
+    <string name="gridlayout_3_27">GridLayout使用3.27</string>
+    <string name="tablelayout_3_27">TableLayout使用3.27</string>
+    <string name="checkbox">CheckBox使用</string>
+    <string name="progressbar_3_27">ProgressBar进度条使用3.27</string>
+    <string name="title_activity_base_app_compat">BaseAppCompatActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>

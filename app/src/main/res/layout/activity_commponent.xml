@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="demo.utils.com.myapplication.activity.DemoActivity">
+
+    <demo.utils.com.myapplication.utils.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tableLayout"
+                style="@style/tv_style_bg_component"
+                android:text="@string/tablelayout_3_27" />
+
+            <TextView
+                android:id="@+id/tv_gridLayout"
+                style="@style/tv_style_bg_component"
+                android:text="@string/gridlayout_3_27" />
+
+            <TextView
+                android:id="@+id/tv_check_box"
+                style="@style/tv_style_bg_component"
+                android:text="@string/checkbox" />
+
+            <TextView
+                android:id="@+id/tv_progress_bar"
+                style="@style/tv_style_bg_component"
+                android:text="@string/progressbar_3_27" />
+
+            <TextView
+                android:id="@+id/tv_radioButton"
+                style="@style/tv_style_bg_component"
+                android:text="RadioButton的使用3.27" />
+
+            <TextView
+                android:id="@+id/tv_toggleButton"
+                style="@style/tv_style_bg_component"
+                android:text="ToggleButton状态开关按钮3.27" />
+
+            <TextView
+                android:id="@+id/tv_analogClock"
+                style="@style/tv_style_bg_component"
+                android:text="AnalogClock时钟控件3.27" />
+
+            <TextView
+                android:id="@+id/tv_datePickern"
+                style="@style/tv_style_bg_component"
+                android:text="DatePicker日期选择3.27" />
+
+            <TextView
+                android:id="@+id/tv_charts"
+                style="@style/tv_style_bg_component"
+                android:text="图表的使用4.2" />
+
+            <TextView
+                android:id="@+id/tv_test_global_dialog"
+                style="@style/tv_style_bg_component"
+                android:text="全局的dialog4.10" />
+
+            <TextView
+                android:id="@+id/tv_test_stick_item"
+                style="@style/tv_style_bg_component"
+                android:text="粘性标签Decoration8.22" />
+
+
+        </LinearLayout>
+
+    </demo.utils.com.myapplication.utils.MyScrollView>
+</LinearLayout>

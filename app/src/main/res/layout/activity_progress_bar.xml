@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.utils.com.myapplication.activity.ProgressBarActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/pbNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/bt_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示"/>
+
+            <Button
+                android:id="@+id/bt_dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消失"/>
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"/>
+
+        <demo.utils.com.myapplication.ui.CirclePgBar
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <!--  android:thumb="@drawable/ic_launcher" 设置滑块的图片 -->
+        <SeekBar
+            android:id="@+id/seekBar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:thumb="@mipmap/seekbar_thumb_normal"
+            android:layout_marginTop="74dp" />
+
+        <Button
+            android:id="@+id/bt_progressDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示对话框进度条"/>
+
+        <Button
+            android:id="@+id/bt_progress_bar_define"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示自定义进度条"/>
+
+        <ProgressBar
+            android:id="@+id/pb_progress_self_define"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:progressDrawable="@drawable/view_custom_progress"/>
+
+        <TextView
+            android:id="@+id/tvProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
