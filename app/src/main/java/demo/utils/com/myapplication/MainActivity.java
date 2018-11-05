@@ -18,6 +18,9 @@ import demo.utils.com.myapplication.activity.FrameActivity;
 import demo.utils.com.myapplication.activity.MoreActivity;
 import demo.utils.com.myapplication.activity.DemoActivity;
 
+/**
+ * 主activity
+ */
 public class MainActivity extends TabActivity implements View.OnClickListener {
 
     public static String TAB_TAG_HOME = "home";
