@@ -14,6 +14,9 @@ import demo.utils.com.myapplication.R;
 import demo.utils.com.myapplication.adapter.PromoteAllAdapter;
 import demo.utils.com.myapplication.ui.MyGridView;
 
+/**
+ * 进阶
+ */
 public class PromoteActivity extends AppCompatActivity {
 
     private MyGridView gv_promote;
