@@ -19,7 +19,7 @@ import demo.utils.com.myapplication.activity.MoreActivity;
 import demo.utils.com.myapplication.activity.DemoActivity;
 
 /**
- * 主activity
+ * 主activity,测试mac提交代码
  */
 public class MainActivity extends TabActivity implements View.OnClickListener {
 
