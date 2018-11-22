@@ -44,6 +44,12 @@
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="z0LYk7VyRD8iHMBoZdzWY1jG4ujsQfm8" />
 
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+        <service android:name=".service.MyService" />
+
         <activity android:name=".activity.AlphaTitleBarActivity" />
         <activity android:name=".activity.FrameActivity" />
         <activity android:name=".activity.CommponentActivity" />
@@ -78,18 +84,12 @@
         <activity android:name=".activity.GlobalDialogActivity" />
         <activity android:name=".activity.StickItemActivity" />
         <activity android:name=".TestActivity" />
-
-        <service
-            android:name="com.baidu.location.f"
-            android:enabled="true"
-            android:process=":remote" />
-        <service android:name=".service.MyService" />
-
         <activity android:name=".activity.PromoteGoupActivity" />
         <activity
             android:name=".activity.BaseActivity"
             android:label="@string/title_activity_base"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.ProMukeActivity"></activity>
     </application>
 
 </manifest>
