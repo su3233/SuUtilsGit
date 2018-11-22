@@ -1,16 +1,40 @@
 package demo.utils.com.myapplication.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.TextView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import demo.utils.com.myapplication.R;
 
+/**
+ * 慕课网学习
+ */
 public class ProMukeActivity extends AppCompatActivity {
+
+    @BindView(R.id.tv_pro_greendao)
+    TextView tvProGreendao;
+    @BindView(R.id.tv_pro_other)
+    TextView tvProOther;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pro_muke);
+        ButterKnife.bind(this);
+    }
 
+    @OnClick({R.id.tv_pro_greendao, R.id.tv_pro_other})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.tv_pro_greendao:
+
+                break;
+            case R.id.tv_pro_other:
+                break;
+        }
     }
 }

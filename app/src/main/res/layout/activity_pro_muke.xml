@@ -7,4 +7,14 @@
     android:orientation="vertical"
     tools:context=".activity.ProMukeActivity">
 
+
+    <TextView
+        android:id="@+id/tv_pro_greendao"
+        style="@style/tv_style_bg"
+        android:text="greenDao18-11.22" />
+
+    <TextView
+        android:id="@+id/tv_pro_other"
+        style="@style/tv_style_bg"
+        android:text="tv_pro_other" />
 </LinearLayout>
