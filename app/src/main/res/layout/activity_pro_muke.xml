@@ -14,7 +14,7 @@
         android:text="greenDao18-11.22" />
 
     <TextView
-        android:id="@+id/tv_pro_other"
+        android:id="@+id/tv_qian_service"
         style="@style/tv_style_bg"
-        android:text="tv_pro_other" />
+        android:text="前台的服务" />
 </LinearLayout>

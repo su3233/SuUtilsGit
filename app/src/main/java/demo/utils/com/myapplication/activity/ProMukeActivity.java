@@ -1,5 +1,6 @@
 package demo.utils.com.myapplication.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -33,7 +34,8 @@ public class ProMukeActivity extends AppCompatActivity {
             case R.id.tv_pro_greendao:
 
                 break;
-            case R.id.tv_pro_other:
+            case R.id.tv_qian_service:
+//                startActivity(new Intent(this,));
                 break;
         }
     }
