@@ -18,7 +18,7 @@ public class ProMukeActivity extends AppCompatActivity {
 
     @BindView(R.id.tv_pro_greendao)
     TextView tvProGreendao;
-    @BindView(R.id.tv_pro_other)
+    @BindView(R.id.tv_qian_service)
     TextView tvProOther;
 
     @Override
@@ -28,7 +28,7 @@ public class ProMukeActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.tv_pro_greendao, R.id.tv_pro_other})
+    @OnClick({R.id.tv_pro_greendao, R.id.tv_qian_service})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.tv_pro_greendao:

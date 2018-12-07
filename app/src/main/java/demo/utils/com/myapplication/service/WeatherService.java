@@ -1,11 +1,9 @@
 package demo.utils.com.myapplication.service;
 
-import android.app.Activity;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 
 import demo.utils.com.myapplication.R;
