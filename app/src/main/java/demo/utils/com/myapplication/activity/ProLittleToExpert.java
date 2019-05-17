@@ -11,39 +11,35 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import demo.utils.com.myapplication.R;
+import demo.utils.com.myapplication.activity.little_to_expert.LittleTabViewpagerActivity;
 
 /**
- * 慕课网学习
+ * 从小工到专家
  */
-public class ProMukeActivity extends AppCompatActivity {
+public class ProLittleToExpert extends AppCompatActivity {
 
-    @BindView(R.id.tv_pro_greendao)
-    TextView tvProGreendao;
-    @BindView(R.id.tv_qian_service)
-    TextView tvProOther;
+    @BindView(R.id.tv_tab_viewpager)
+    TextView tvTabViewpager;
+    @BindView(R.id.tv_my_view)
+    TextView tvMyView;
     private Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pro_muke);
-        mContext = ProMukeActivity.this;
+        setContentView(R.layout.activity_pro_little_to_expert);
         ButterKnife.bind(this);
+        mContext = ProLittleToExpert.this;
     }
 
-    @OnClick({R.id.tv_pro_greendao, R.id.tv_qian_service})
+    @OnClick({R.id.tv_tab_viewpager, R.id.tv_my_view})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R.id.tv_pro_greendao:
-
+            case R.id.tv_tab_viewpager://tab+viewPager
+                startActivity(new Intent(mContext, LittleTabViewpagerActivity.class));
                 break;
-            case R.id.tv_qian_service:
-//                startActivity(new Intent(this,));
+            case R.id.tv_my_view:
                 break;
-
-//            case R.id.tv_tab_viewpager:
-//                startActivity(new Intent(mContext,));
-//                break;
         }
     }
 }

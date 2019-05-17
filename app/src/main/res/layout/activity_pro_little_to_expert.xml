@@ -5,18 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.ProMukeActivity">
-
-
-    <TextView
-        android:id="@+id/tv_pro_greendao"
-        style="@style/tv_style_bg"
-        android:text="greenDao18-11.22" />
+    tools:context=".activity.ProLittleToExpert">
 
     <TextView
-        android:id="@+id/tv_qian_service"
+        android:id="@+id/tv_tab_viewpager"
         style="@style/tv_style_bg"
-        android:text="前台的服务" />
+        android:text="tab+Viewpager" />
 
-
+    <TextView
+        android:id="@+id/tv_my_view"
+        style="@style/tv_style_bg"
+        android:text="自定义控件" />
 </LinearLayout>

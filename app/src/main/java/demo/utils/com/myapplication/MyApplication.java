@@ -52,7 +52,11 @@ public class MyApplication extends Application {
     public static MyApplication genInstance() {
         synchronized (LOCKER) {
             if (myApplication == null) {
-                myApplication = new MyApplication();
+                synchronized (MyApplication.class) {
+                    if (myApplication == null) {
+                        myApplication = new MyApplication();
+                    }
+                }
             }
         }
         return myApplication;
@@ -92,8 +96,7 @@ public class MyApplication extends Application {
         DbManager.DaoConfig daoConfig = new DbManager.DaoConfig()
                 //设置数据库名，默认xutils.db
                 .setDbName("myapp.db")
-                //设置数据库路径，默认存储在app的私有目录
-                .setDbDir(new File(Environment.getExternalStorageDirectory().getPath()))//"/mnt/sdcard/"
+                /*设置数据库路径，默认存储在app的私有目录*/.setDbDir(new File(Environment.getExternalStorageDirectory().getPath()))//"/mnt/sdcard/"
                 //设置数据库的版本号
                 .setDbVersion(1)
                 //设置数据库打开的监听

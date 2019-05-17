@@ -89,7 +89,9 @@
             android:name=".activity.BaseActivity"
             android:label="@string/title_activity_base"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.ProMukeActivity"></activity>
+        <activity android:name=".activity.ProMukeActivity" />
+        <activity android:name=".activity.ProLittleToExpert" />
+        <activity android:name=".activity.little_to_expert.LittleTabViewpagerActivity"></activity>
     </application>
 
 </manifest>
