@@ -5,8 +5,13 @@ buildscript {
         jcenter()
     }
     dependencies {
+<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:3.0.1'
 
+=======
+        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.1'  //添加这一行
+>>>>>>> 7ee1501d8a454a934bfa1d41922a9195d71b60be
         classpath 'org.greenrobot:greendao-gradle-plugin:3.0.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

@@ -20,7 +20,7 @@ import demo.utils.com.myapplication.ui.MyGridView;
 public class PromoteActivity extends AppCompatActivity {
 
     private MyGridView gv_promote;
-    private String[] itemsArr = {"慕课", "开发进阶", "设计模式", "爱上Android", "开发进阶"};
+    private String[] itemsArr = {"慕课", "开发进阶", "从小工到专家", "爱上Android", "设计模式"};
     private List<String> items = new ArrayList<String>();
 
     @Override

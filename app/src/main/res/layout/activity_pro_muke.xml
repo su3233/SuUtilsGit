@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ProMukeActivity">
+
+
+    <TextView
+        android:id="@+id/tv_pro_greendao"
+        style="@style/tv_style_bg"
+        android:text="greenDao18-11.22" />
+
+    <TextView
+        android:id="@+id/tv_qian_service"
+        style="@style/tv_style_bg"
+        android:text="前台的服务" />
+
+
+</LinearLayout>

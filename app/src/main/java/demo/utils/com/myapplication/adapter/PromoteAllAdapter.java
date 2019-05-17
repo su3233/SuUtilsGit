@@ -14,6 +14,8 @@ import java.util.List;
 
 import demo.utils.com.myapplication.R;
 import demo.utils.com.myapplication.activity.BaseActivity;
+import demo.utils.com.myapplication.activity.ProLittleToExpert;
+import demo.utils.com.myapplication.activity.ProMukeActivity;
 import demo.utils.com.myapplication.activity.PromoteActivity;
 import demo.utils.com.myapplication.activity.PromoteGoupActivity;
 
@@ -61,13 +63,13 @@ public class PromoteAllAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 if (position == 0) {//慕课
-//
+                    mContext.startActivity(new Intent(mContext, ProMukeActivity.class));
                 } else if (position == 1) {//开发进阶PromoteGoupActivity
                     mContext.startActivity(new Intent(mContext, BaseActivity.class));
                 } else if (position == 2) {//设计模式
 
-                } else if (position == 3) {//爱上Android
-
+                } else if (position == 3) {//从小工到专家
+                    mContext.startActivity(new Intent(mContext, ProLittleToExpert.class));
                 }
             }
         });

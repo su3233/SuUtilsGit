@@ -1,12 +1,20 @@
 ext {
     // Version of compile sdk
+<<<<<<< HEAD
     COMPILE_SDK_VERSION = 26
+=======
+    COMPILE_SDK_VERSION = 27
+>>>>>>> 7ee1501d8a454a934bfa1d41922a9195d71b60be
     // Version of Android build tool
     BUILD_TOOLS_VERSION = "26.0.2"
     // Min version of Android sdk
-    MIN_SDK_VERSION = 17
+    MIN_SDK_VERSION = 21
     // Version of target Android sdk
+<<<<<<< HEAD
     TARGET_SDK_VERSION = 26
+=======
+    TARGET_SDK_VERSION = 27
+>>>>>>> 7ee1501d8a454a934bfa1d41922a9195d71b60be
     // Use progurad or not
     MINIFY_ENABLED = true
     MINIFY_DISABLED = false

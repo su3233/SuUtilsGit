@@ -14,6 +14,7 @@ public class MyOrientationListener implements SensorEventListener {
     private SensorManager mSensorManager;
     private Sensor mSensor;
     private Context mContext;
+
     private float lastX;
     private OnOrientationListener mOnOrientationListener;
 
