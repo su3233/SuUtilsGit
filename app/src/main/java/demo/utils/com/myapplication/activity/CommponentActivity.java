@@ -59,7 +59,7 @@ public class CommponentActivity extends AppCompatActivity implements View.OnClic
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_commponent);
+        setContentView(R.layout.activity_commponent);
 
         x.view().inject(this);
         appManager = new AppManager().getAppManager();
